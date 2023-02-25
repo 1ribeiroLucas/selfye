@@ -1,4 +1,6 @@
 "use strict";
+// Reference for the initial setup
+// https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
