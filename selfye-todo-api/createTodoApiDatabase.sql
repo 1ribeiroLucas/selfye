@@ -1,9 +1,10 @@
 
 CREATE DATABASE todo_api_db;
-\c todo_api_db; -- connects to the newly created database;
+/* create to the newly connected db */
+\c todo_api_db;
 
 CREATE TABLE tasks(
-  taskId      integer PRIMARY KEY ,
-  taskStatus  varchar(12) NOT NULL,  -- finished, cancelled, open, in_progress
+  taskId      SERIAL,
+  taskStatus  varchar(12) NOT NULL,  /* finished, cancelled, active, in_progress */
   taskContent text NOT NULL
 );

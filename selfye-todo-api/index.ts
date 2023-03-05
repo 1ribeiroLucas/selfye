@@ -2,9 +2,10 @@
 // https://blog.logrocket.com/how-to-set-up-node-typescript-express/
 
 
-import express, { Express, Request, Response } from 'express';
+import express, { Express } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import bodyParser from 'body-parser';
 
 import { todoRouter } from './routes/todoApi.routes';
 
